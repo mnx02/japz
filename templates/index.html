@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/all.min.css">
+    <link rel="stylesheet" href="static/css/animate.css">
+    <link rel="stylesheet" href="static/css/flaticon.css">
+    <link rel="stylesheet" href="static/css/magnific-popup.css">
+    <link rel="stylesheet" href="static/css/odometer.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="static/css/nice-select.css">
+    <link rel="stylesheet" href="static/css/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+    <link rel="stylesheet" href="static/css/dark.css">
+
+    <link rel="shortcut icon" href="static/images/favicon.png" type="image/x-icon">
+
+    <title>JAPZ - Video streaming Webapp</title>
+
+
+</head>
+
+<body>
+    <!-- ==========Preloader========== -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ==========Preloader========== -->
+
+    <!-- ==========Overlay========== -->
+    <div class="overlay"></div>
+    <a href="#" class="scrollToTop">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- ==========Overlay========== -->
+
+    <!-- ==========Header-Section========== -->
+    <header class="header-section">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./static/images/logo/logo.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="index.html" >Home</a>
+                    </li>
+                    <li>
+                        <a href="Videochat.html">Video Chat</a>
+                    </li>
+                    <li>
+                        <a href="worldchat.html">World Chat</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About </a>
+                    </li>
+                    <li class="separator">
+                        <span>|</span>
+                    </li>
+                    <li class="user-profile">
+                        <a href="#">{{request.user}}</a>
+
+                        <ul class="submenu">
+                            <li>
+                                <a href="user-account-info.html">My Profile</a>
+                            </li>
+                            {% if user.is_authenticated %}
+
+                            {% else %}
+                            <li>
+                                <a href="login.html">Sign in</a>
+                            </li>
+                            {% endif %}
+                            <li>
+                                <a href="user-notification.html">Notification</a>
+                            </li>
+                            <li>
+                                <a href="user-verify-account.html">Verify-account</a>
+                            </li>
+                            <li>
+                                <a href="user-setting.html">Setting</a>
+                            </li>
+                            <li>
+                                <a href="Change_password.html">Changing Password</a>
+                            </li>
+                            <li>
+                                <a href="Close_account.html">Deactive your account</a>
+                            </li>
+                            <li>
+                                <a href="login.html">Logout</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="header-bar d-lg-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ==========Header-Section========== -->
+    <!-- ==========Banner-Section========== -->
+    <section class="banner-section">
+        <img class="img1 wow fadeInLeft" src="static/images/banner/aimg123.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-5">
+                    <h1 class="main-title wow fadeInLeft">
+                        Find Match
+                    </h1>
+                    <div class="join-now-box wow fadeInUp">
+                        <div class="single-option">
+                            <p class="title">
+                                Gender :
+                            </p>
+                            <div class="option">
+                                <div class="s-input mr-3">
+                                    <input type="radio" name="gender" id="male"><label for="male">Male</label>
+                                </div>
+                                <div class="s-input">
+                                    <input type="radio" name="gender" id="female"><label for="female">Female</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-option gender">
+                            <p class="title">
+                                Preference :
+                            </p>
+                            <div class="option">
+                                <div class="s-input mr-4">
+                                    <input type="radio" name="Preference" id="males"><label for="males">Man</label>
+                                </div>
+                                <div class="s-input">
+                                    <input type="radio" name="Preference" id="females"><label for="females">Woman</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-option age">
+                            <p class="title">
+                                Age range:
+                            </p>
+                            <div class="option">
+                                <div class="s-input mr-3">
+                                    <select class="select-bar">
+                                        <option value="">18</option>
+                                        <option value="">20</option>
+                                        <option value="">24</option>
+                                    </select>
+                                </div>
+                                <div class="separator">
+                                    -
+                                </div>
+                                <div class="s-input ml-3">
+                                    <select class="select-bar">
+                                        <option value="">30</option>
+                                        <option value="">35</option>
+                                        <option value="">40</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-option last">
+                            <p class="title">
+                                Country :
+                            </p>
+                            <div class="option">
+                                <div class="s-input mr-3">
+                                    <select class="select-bar">
+                                        <option>Select Country</option>
+                                        <option value="">India</option>
+                                        <option value="">Japan</option>
+                                        <option value="">England</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="joun-button">
+                            <button class="custom-button">Join Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Banner-Section========== -->
+
+    <!-- ==========Feature-Section========== -->
+     <section class="feature-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="content">
+                        <div class="section-header">
+                            <h2 class="title extra-padding">
+                                Amazing Features
+                            </h2>
+                            <p class="text">
+                                To explore diversity
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content-area">
+            <div class="left-image">
+                <div class="offer">
+                    <div class="offer-inner-content">
+                        <span class="fs">START NOW FOR</span>
+                    <h2>
+                        FREE
+                    </h2>
+                    <span class="ss">7 DAY TRIAL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-lg-5">
+                        <div class="feature-lists">
+                            <div class="single-feature-list">
+                                <div class="icon">
+                                    <img src="assets/images/feature/i1.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4 class="title">
+                                        Simple to use
+                                    </h4>
+                                    <p>
+                                        Simple steps to follow for choosing your connection.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-feature-list">
+                                <div class="icon">
+                                    <img src="static/images/feature/i2.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4 class="title">
+                                        Preference based
+                                    </h4>
+                                    <p>
+                                        select your own talking buddy.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-feature-list">
+                                <div class="icon">
+                                    <img src="static/images/feature/i3.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4 class="title">
+                                        Filter very fast
+                                    </h4>
+                                    <p>
+                                        get choices in your own locality.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-feature-list">
+                                <div class="icon">
+                                    <img src="static/images/feature/i4.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4 class="title">
+                                        Cool community
+                                    </h4>
+                                    <p>
+                                        connect with trending communities.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========Newslater-Section========== -->
+    <footer class="footer-section">
+        <img class="shape2" src="static/images/footer/flower01.png" alt="">
+        <img class="shape3" src="static/images/footer/right-shape.png" alt="">
+        <div class="newslater-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="newslater-container">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-links">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <hr class="hr">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="link-wrapper one">
+                            <h4 class="f-l-title">
+                                Our Information
+                            </h4>
+                            <ul class="f-solial-links">
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i> About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i> Contact Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i> Customer Reviews
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i> Success Stories
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="link-wrapper two">
+                            <h4 class="f-l-title">
+                                My Account
+                            </h4>
+                            <ul class="f-solial-links">
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i> Manage Account
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i> Account Verification
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i> Safety & Security
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i> Membership Level
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="link-wrapper three">
+                            <h4 class="f-l-title">
+                                help center
+                            </h4>
+                            <ul class="f-solial-links">
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i> Help centre
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i>Quick Start Guide
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i>Tutorials
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-angle-double-right"></i>Associate Blog
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <hr class="hr2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div class="copyr-text">
+                            <span>
+                                Copyright © 2021.All Rights Reserved By
+                            </span>
+                            <a href="#">JAPZ</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="footer-social-links">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==========Newslater-Section========== -->
+
+
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="static/js/modernizr-3.6.0.min.js"></script>
+    <script src="static/js/plugins.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/heandline.js"></script>
+    <script src="static/js/isotope.pkgd.min.js"></script>
+    <script src="static/js/magnific-popup.min.js"></script>
+    <script src="static/js/owl.carousel.min.js"></script>
+    <script src="static/js/wow.min.js"></script>
+    <script src="static/js/countdown.min.js"></script>
+    <script src="static/js/odometer.min.js"></script>
+    <script src="static/js/viewport.jquery.js"></script>
+    <script src="static/js/nice-select.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>

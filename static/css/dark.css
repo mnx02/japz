@@ -1,0 +1,388 @@
+body,
+html {
+    background: #202342;
+}
+
+p,
+span,
+.banner-section .join-now-box .single-option .option label,
+.single-feature h4,
+.flirting-section .section-header .title,
+.statistics-section .stat-content .counter-item,
+.feature-section .section-header .title,
+.feature-section .section-header .text,
+.latest-registered-section .section-header .title,
+.latest-registered-section .section-header .text,
+.sucess-stories-section .section-header .title,
+.sucess-stories-section .section-header .text,
+.member-slider-section .section-header .title,
+.member-slider-section .section-header .text,
+.membership-section .section-header .title,
+.membership-section .section-header .text,
+.community-section .section-header .title,
+.community-section .section-header .text,
+.w-c-u-section .section-header .title,
+.w-c-u-section .section-header .text,
+.faq-section .section-header .title,
+.faq-section .section-header .text,
+.contact-section .section-header .title,
+.contact-section .section-header .text,
+.feature-section .main-content-area .feature-lists .single-feature-list .content .title,
+.single-story-box .content .title,
+.single-story-box .box-footer .right a,
+.single-work-box .title,
+.steps-section .steps-section-inner .myCol1 .title,
+.steps-section .steps-section-inner .myCol2 .steps-list li .label,
+.banner-section .join-now-box .single-option .option .s-input .nice-select .list li,
+.member-slider-section .single-slider .inner-content .name,
+.single-community-box .content .title,
+.single-community-box .box-footer .left,
+.single-community-box .box-footer .right,
+.header-wrapper .menu li .submenu li a,
+.header-wrapper .menu li .nice-select .list li,
+.community-section.inner-page .top-filter .left a,
+.community-section.inner-page .top-filter .right .filter-right .nice-select ul li,
+.modal.filter-p .modal-header .modal-title,
+.modal.filter-p .join-now-box .single-option .option,
+.modal.filter-p .join-now-box .single-option .option .s-input .nice-select .list li,
+.pagination-area a,
+.profile-section.single-community .c-group-info .group-content .title,
+.profile-section.single-community .c-group-info .admin-area .title,
+.profile-section .profile-main-content .write-post-area .write-area textarea,
+.profile-section .profile-main-content .write-post-area .submit-area .left .select-area .nice-select ul li,
+.profile-section .profile-main-content .profile-single-post .p-s-p-content-footer .left .comment,
+.profile-section .profile-main-content .profile-single-post .p-s-p-content-footer .right .nice-select ul li,
+.profile-section .profile-main-content .load-more,
+.profile-section.single-community .profile-aside-area .recent-photo .title,
+.profile-section.single-community .profile-aside-area .recent-member .title,
+.profile-section.single-community .profile-aside-area .serch-area form input,
+.profile-section .left-profile-area .profile-uplodate-photo .p-u-p-header,
+.profile-section .profile-main-content .top-menu li a,
+.profile-section .profile-main-content .info-box .header .title,
+.profile-section .profile-aside-area .other-profile .o-p-header .title,
+.profile-section .profile-aside-area .chat-request .c-r-heading .title,
+.profile-section .profile-aside-area .chat-request .c-r-content .single-c-r .right .title,
+.profile-section .profile-aside-area .chat-request .c-r-content .load-more,
+.membership-section .plan-info .title,
+.faq-item .faq-title .title,
+.grid-button li a,
+.nice-select .option,
+.single-product-list-2 .content .title,
+.single-w-c-u-box .title,
+.profile-section .profile-main-content .profile-single-post .p-s-p-header-area .name,
+.community-section.inner-page .single-friend .content .name,
+.community-section.inner-page .single-friend .content .connnect-btn,
+.widget-1 .subtitle,
+.product-category .price-range-slider .p-info .left,
+.widget-1.widget-check .form-group label,
+.widget-1.widget-check .form-group input:checked~label::before,
+.single-product .content .title,
+.single-product-list .content .content-inner .title,
+.single-product-list .content .content-inner .add-wish-btn,
+.single-product-list .content .content-inner .more-info,
+.profile-section .profile-main-content .profile-friends .single-friend .content .name,
+.profile-section .profile-main-content .profile-friends .single-friend .content .connnect-btn,
+.profile-section .left-profile-area .profile-about-box .p-inner-content .name,
+.profile-section .left-profile-area .profile-about-box .p-inner-content .p-b-meta-two .left,
+.product-details-section .overlay .right-area .product-info ul li .product-title,
+.product-details-section .overlay .right-area .product-info ul li .review-block .star-review .reviews,
+.product-details-section .overlay .right-area .product-info .product-price p,
+.product-details-section .overlay .right-area .product-info .shiping-area .nice-select .list li,
+.product-details-section .overlay .right-area .product-info .shiping-area h4,
+.product-details-section .qtySelector i,
+.product-details-section .product-single-share label,
+.product-details-section .nav-tabs li a,
+.product-details-section .tab-content .tab-pane .title,
+.product-details-section .tab-content .tab-content-wrapper-fifth .averages-review .rating,
+.product-details-section .tab-content .tab-content-wrapper-fifth .averages-review .star-review a.reviews,
+.product-details-section .tab-content .tab-content-wrapper-fifth ul .rating-point span,
+.product-details-section .tab-content .tab-content-wrapper-fifth .comment-single .comnt-text .comnt-info h5,
+.product-details-section .tab-content .tab-content-wrapper-fifth .comment-form h3,
+.product-details-section .tab-content .tab-content-wrapper-fifth .comment-form .star-area h5,
+.section-header .title.extra-padding,
+.product-details-section .tab-content .tab-content-wrapper ul li,
+.product-details-section .tab-content .tab-content-wrapper-second .top-content li,
+.product-details-section .tab-content .tab-content-wrapper-fifth .comment-single .comnt-text .comnt-info .date-area,
+.contact-section .contact-form-wrapper .single-input input,
+.contact-section .contact-form-wrapper .single-input textarea,
+.log-reg .log-reg-inner .section-header.inloginp .title,
+.log-reg .log-reg-inner .main-content .form-group label,
+.log-reg .log-reg-inner .main-content .f-pass a,
+.log-reg .log-reg-inner .main-content .or-content p,
+.log-reg .log-reg-inner .main-content .or-content .or-signup a,
+.log-reg .log-reg-inner .main-content .or-content .or-btn,
+.log-reg .log-reg-inner .main-content .form-group .my-form-control,
+.log-reg .log-reg-inner .section-header .title,
+.log-reg .log-reg-inner .section-header P,
+.log-reg .log-reg-inner .main-content .content-title,
+.single-blog.post-details .right .post-header .m-title,
+.single-blog.post-details .right .post-header blockquote,
+.blog-page .single-blog .content .right .title,
+.single-blog.post-details .right .tags-area .tags a,
+.single-blog.post-details .right .tags-area .tags span,
+.blog-author .author-content .title a,
+.blog-comment>.title,
+.comment-area li .blog-thumb-info .title a,
+.leave-comment .title,
+.blog-form .form-group textarea,
+.blog-form .form-group input,
+.widget .title,
+.widget-search input,
+.widget-post .widget-slider .item .content .p-title a,
+.widget-post .widget-slider .item .content .meta-post a,
+.widget-tags ul li a,
+.widget-newsletter input,
+.section-404 .title,
+.user-setting-section .page-title,
+.user-setting-section .accordion .card .card-body .links li a,
+.user-setting-section .up-photo-card .content h4,
+.user-setting-section .input-info-box .header,
+.user-setting-section .input-info-box .content .my-input-box label,
+.user-setting-section .input-info-box .content .my-input-box input,
+.user-setting-section .input-info-box .content .my-input-box select,
+.user-setting-section .input-info-box .content .my-notification-box .left .top h5,
+.user-setting-section .frind-box .left .content .name,
+.user-setting-section .badge-box .content h4,
+.user-setting-section .badge-box .content p,
+.user-setting-section .badge-box .bottom-content .p-wrapper .persent,
+.user-setting-section .input-info-box .content .varify-box .title,
+.user-setting-section .input-info-box .content .varify-box .list li span,
+.user-setting-section .input-info-box .content .varify-box .list2 li,
+.user-setting-section .input-info-box .content .varify-box .list2 li i,
+.user-setting-section .input-info-box .my-table .table td.dark,
+.user-setting-section .input-info-box .my-table .table-filter .my-input-box input
+{
+    color: #fff;
+}
+
+
+
+.banner-section .join-now-box,
+.single-feature,
+.statistics-section .stat-item .icon,
+.latest-registered-section::after,
+.latest-registered-section::before,
+.single-story-box,
+.footer-section,
+.feature-section .main-content-area .feature-lists .single-feature-list .icon,
+.single-work-box,
+.steps-section .steps-section-inner,
+.nice-select .list,
+.member-slider-section,
+.single-community-box,
+.single-community-box .box-footer .right,
+.header-wrapper .menu li .submenu li a:hover,
+.header-wrapper .menu li .submenu li a.active,
+.community-section.inner-page .top-filter .left a,
+.modal-content,
+.modal.filter-p .join-now-box,
+.pagination-area a,
+.profile-section.single-community .profile-main-content,
+.profile-section .profile-main-content .write-post-area .submit-area .left a.upload-btn,
+.profile-section .profile-main-content .profile-single-post .p-s-p-content-footer .link,
+.profile-section.single-community .profile-aside-area .recent-photo,
+.profile-section.single-community .profile-aside-area .recent-member,
+.profile-section.single-community .profile-aside-area .serch-area,
+.profile-section .left-profile-area .profile-about-box,
+.profile-section .left-profile-area .profile-meta-box,
+.profile-section .left-profile-area .profile-uplodate-photo,
+.profile-section .profile-main-content .top-menu,
+.profile-section .profile-main-content .info-box,
+.profile-section .profile-aside-area .other-profile,
+.profile-section .profile-aside-area .chat-request,
+.pricing-plan-wrapper .single-plan,
+.filter-area,
+.filter-main .right .item .select-bar .list,
+.single-product-list-2,
+.w-c-u-section,
+.widget-1,
+.single-product,
+.single-product-list,
+.product-details-section .qtySelector,
+.product-details-section .nav-tabs,
+.product-details-section .tab-content .top-content-fifth,
+.product-details-section .tab-content .tab-content-wrapper-fifth .single-comment,
+.log-reg .log-reg-inner .main-content .or-content .or-btn,
+.log-reg .log-reg-inner .main-content .form-group .my-form-control,
+.log-reg .log-reg-inner .main-content .form-group .option,
+.blog-page .single-blog,
+.blog-author,
+.widget,
+.user-setting-section .accordion,
+.user-setting-section .accordion .card .card-header,
+.user-setting-section .accordion .card .card-header button,
+.user-setting-section .page-title,
+.user-setting-section .profile-about-box,
+.user-setting-section .up-photo-card,
+.user-setting-section .input-info-box,
+.user-setting-section .input-info-box .content .my-input-box textarea,
+.user-setting-section .input-info-box .content .my-input-box select,
+.user-setting-section .input-info-box .content .my-notification-box,
+.user-setting-section .badge-box,
+.user-setting-section .input-info-box .content .varify-box,
+.single-plan,
+.user-setting-section .input-info-box .my-table .table-filter .my-input-box label
+{
+    background: #262950;
+}
+
+
+
+.user-setting-section .input-info-box .content .my-input-box input,
+.user-setting-section .input-info-box .content .my-input-box textarea,
+.user-setting-section .input-info-box .content .my-input-box select,
+.user-setting-section .badge-box,
+.user-setting-section .badge-box .bottom-content .p-wrapper
+{
+    border: 1px solid rgba(253, 253, 253, 0.1);
+}
+
+
+.user-setting-section .frind-box .right .accept {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.user-setting-section .frind-box .single-friend {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+.nice-select .option:hover,
+.nice-select .option.focus,
+.nice-select .option.selected.focus,
+.header-wrapper .menu li .submenu,
+.community-section.inner-page .top-filter .right .filter-right .nice-select,
+.profile-section .profile-main-content .write-post-area,
+.profile-section .profile-main-content .profile-single-post,
+.profile-section .profile-main-content .load-more,
+.profile-section .left-profile-area .profile-meta-box .p-m-b li a,
+.single-w-c-u-box,
+.profile-section .left-profile-area .profile-about-box .p-inner-content .p-b-meta-two .left .icon,
+.single-blog.post-details .right .post-header blockquote,
+.blog-page .single-blog .content .left .meta-list li a {
+    background: #202342;
+}
+
+.header-wrapper .menu li .submenu::before {
+    border: 10px solid #202342;
+    border-bottom-width: 15px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+.profile-section .profile-main-content .write-post-area .write-area textarea {
+    background-color: #202342;
+}
+
+.banner-section .join-now-box .single-option,
+.modal-header,
+.modal.filter-p .join-now-box .single-option,
+.profile-section .profile-main-content .write-post-area .write-area textarea,
+.profile-section.single-community .profile-aside-area .recent-photo .title,
+.profile-section.single-community .profile-aside-area .recent-member .title,
+.profile-section .profile-main-content .info-box .header,
+.profile-section .profile-aside-area .chat-request .c-r-content .single-c-r .right,
+.pricing-plan-wrapper .single-plan .duration,
+.widget-1 .subtitle,
+.product-details-section .tab-content .tab-content-wrapper-fifth .comment-form input,
+.contact-section .contact-form-wrapper .single-input input,
+.blog-form .form-group textarea,
+.blog-form .form-group input,
+.widget-search input,
+.widget-newsletter input {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.single-story-box .box-footer,
+.single-community-box .box-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.banner-section .join-now-box .single-option .option .s-input .nice-select,
+.community-section.inner-page .top-filter .right .filter-right .nice-select,
+.modal.filter-p .join-now-box .single-option .option .s-input .nice-select,
+.profile-section .profile-main-content .write-post-area .submit-area .left .select-area .nice-select,
+.profile-section .profile-main-content .profile-single-post .p-s-p-content-footer .left .comment,
+.profile-section .profile-main-content .profile-single-post .p-s-p-content-footer .right .nice-select,
+.profile-section .profile-main-content .profile-single-post .p-s-p-content-footer .right .nice-select,
+.profile-section.single-community .profile-aside-area .serch-area form input,
+.profile-section .profile-aside-area .chat-request .c-r-content .load-more,
+.grid-button li a,
+.filter-main .right .item .select-bar,
+.community-section.inner-page .single-friend,
+.community-section.inner-page .single-friend .content .connnect-btn,
+.profile-section .profile-main-content .profile-friends .single-friend,
+.profile-section .profile-main-content .profile-friends .single-friend .content .connnect-btn,
+.product-details-section .nav-tabs,
+.product-details-section .tab-content .top-content-fifth,
+.product-details-section .tab-content .tab-content-wrapper-fifth .averages-review,
+.product-details-section .tab-content .tab-content-wrapper-fifth .single-comment,
+.product-details-section .tab-content .tab-pane,
+.widget-tags ul li a,
+.profile-section .profile-main-content .top-menu-two li .nice-select {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.user-setting-section .accordion .card .card-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-section .shape1 {
+    rgba(255, 255, 255, 0.1) display: none;
+}
+
+.steps-section .steps-section-inner .myCol2,
+.single-product-list .content .content-inner .right-content {
+    border-left: 1px solid rgb(255, 255, 255);
+}
+
+.widget-1.widget-check .form-group label::before {
+    border: 1px solid #fff;
+}
+
+.product-details-section .nav-tabs li a {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.log-reg .top-menu-area {
+    position: relative;
+    z-index: 4;
+}
+
+.log-reg .image {
+    z-index: 0;
+}
+
+.log-reg .log-reg-inner .main-content .or p {
+    background: none;
+}
+
+.log-reg .log-reg-inner .main-content .form-group .my-form-control::placeholder,
+.widget-search input::placeholder,
+.widget-newsletter input::placeholder {
+    color: rgb(207, 207, 207) !important;
+}
+
+.profile-bc-area {
+    background: url(../images/bc-dark.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.profile-section .profile-main-content .top-menu-two li a {
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+@media (max-width: 991px) {
+    .header-wrapper .menu li .submenu {
+        background: none;
+    }
+}
